@@ -240,4 +240,4 @@ COPY run_jupyter.sh /root/
 EXPOSE 6006 8888
 
 WORKDIR "/root"
-CMD jupyter notebook --allow-root --no-browser --ip=0.0.0.0 --NotebookApp.token=
+CMD ["/bin/bash"]
